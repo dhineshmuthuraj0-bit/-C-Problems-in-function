@@ -12,10 +12,18 @@ int main()
     scanf("%f%f %c",&a,&b,&c);
     switch(c)
     {
-        case '+': printf("%.f",add(a,b)); break;
-        case '-': printf("%.f",sub(a,b)); break;
-        case '*': printf("%.f",mul(a,b)); break;
-        case '/': printf("%.f",div(a,b)); break;
+        case '+':
+            printf("%.f",add(a,b));
+            break;
+        case '-':
+            printf("%.f",sub(a,b));
+            break;
+        case '*':
+            printf("%.f",mul(a,b));
+            break;
+        case '/':
+            printf("%.f",div(a,b));
+            break;
     }
     return 0;
 }
